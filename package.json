@@ -1,0 +1,24 @@
+{
+  "name": "storeapp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon ./src/index.ts"
+  },
+  "author": "SethLawson07",
+  "license": "MIT",
+  "devDependencies": {
+    "nodemon": "^2.0.22",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.0.4"
+  },
+  "dependencies": {
+    "@types/express": "^4.17.17",
+    "express": "^4.18.2",
+    "mysql": "^2.18.1",
+    "reflect-metadata": "^0.1.13",
+    "typeorm": "^0.3.15"
+  }
+}
